@@ -24,7 +24,7 @@ github_username:  ByungHeeCha
 # facebook_username: jekyll
 # flickr_username: jekyll
 instagram_username: paulcha1025
-linkedin_username: paulcha1025
+linkedin_username: 병희-차-6384a81a4
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -32,10 +32,10 @@ linkedin_username: paulcha1025
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -59,44 +59,104 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Visual localization
+        link: https://github.com/ByungHeeCha/visual_localization
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+#         additional_links:
+#           - title:  sproogen/modern-resume-theme
+#             icon: fab fa-github
+#             url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#         quote: >
+#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          현대백화점 내부 사진 데이터셋을 이용하여 visual localization 프로젝트를 진행하였습니다. 
+          Visual localization은 촬영 위치가 저장되어 있는 DB 이미지들을 이용하여 쿼리 이미지의 촬영 위치가 어디인지 찾아내는 task입니다. 
+          NetVLAD, APGeM 등으로 쿼리 이미지와 DB 이미지의의 Global descriptor를 추출하였고, RootSIFT, Superglue 등으로 두 이미지의 feature matching을 통하여 쿼리 이미지의 위치를 예측하였습니다.
+      - layout: top-middle
+        title: Style2Vec
+        link: https://github.com/ByungHeeCha/Style2vec
+        # link_text: Project Website
+#         additional_links:
+#           - title:  sproogen/modern-resume-theme
+#             icon: fab fa-github
+#             url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#         quote: >
+#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          학부생 연구기회 프로그램에서 패션 사진으로 부터 스타일 관련 특징을 추출하는 Style2Vec에 대한 연구를 진행하였습니다. 
+          Word2Vec의 모델을 참고하여 같이 착용한 의상들은 비슷한 특성이 추출되도록 모델을 구성하였습니다. 
+          그 결과 색감이나 옷의 종류가 비슷한 패션 사진이 서로 가깝게 임베딩됨을 확인할 수 있었습니다.
+      - layout: top-middle
+        title: Live Profiler for NNstreamer
+        link: https://github.com/cts-2019f-nnstreamer/gst-shark
+        # link_text: Project Website
+#         additional_links:
+#           - title:  sproogen/modern-resume-theme
+#             icon: fab fa-github
+#             url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#         quote: >
+#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          ‘창의적통합설계’라는 과목에서 팀원들과 삼성에서 개발하는 nnstreamer의 live profiler를 개발하는 프로젝트를 진행하였습니다. 
+          Network pipeline 각 component의 CPU usage, Processing time, buffer rate를 추적할 수 있고 그것을 그래프나 차트로 보기 쉽게 구현하였습니다. 
+          그 결과 회사 담당자분과 교수님께서 모두 만족하실만한 결과를 낼 수 있었습니다. 덕분에 저희 팀이 A+ 학점을 받을 수 있었습니다.
+      - layout: top-middle
+        title: Foodbook
+        link: https://github.com/swsnu/swpp2019-team10
+        # link_text: Project Website
+#         additional_links:
+#           - title:  sproogen/modern-resume-theme
+#             icon: fab fa-github
+#             url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#         quote: >
+#           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          ‘소프트웨어 개발의 원리와 실제’라는 수업에서 팀을 구성해서 자신만의 웹서비스를 만들어보는 프로젝트를 진행 한 적이 있습니다. 
+          웹디자인, 서버 데이터베이스 구성을 처음부터 계획하였으며 ML등의 기능도 추가하였습니다. 
+          프론트엔드 프레임워크는 React, 백엔드 프레임워크는 Django를 사용했습니다. 
+          Azure cloud와 nginx를 시용하여 잠시나마 웹서비스를 운영해보았습니다. 
+          팀원들과 원활하게 소통하며 협력하였고 만족할만한 결과를 얻을 수 있었습니다. 
+          덕분에 해당 과목에서 A+ 학점을 받을 수 있었습니다.
+      
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: SAP Labs Korea
+#         link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Intern
+        caption: 2020 1월 - 2020 2월
+#         quote: >
+#           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            ML을 이용한 cardinality estimation에 대한 연구를 진행하였습니다. 
+            쿼리 최적화에 매우 중요한 부분을 차지하는 cardinality를 ML을 이용하여 좀 더 정교하게 예측하는 과제였습니다. 
+            회사 멘토분들께서 저를 많이 도와주셨고 저도 논문을 읽고 여러 가지 실험을 해보며 멘토분들께서 만족하실만한 결과를 내놓게 되었습니다. 
+            그 과정에서 딥러닝에 대한 경험과 실력을 조금 증진 시킬 수 있게 되었습니다.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: 서울대학교
+        caption: 2017 - 재학중
+        sub_title: 컴퓨터공학부
+#         quote: >
+#           Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 

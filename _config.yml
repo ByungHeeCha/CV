@@ -54,10 +54,13 @@ about_content: | # this will include new lines to allow paragraphs
   저는 데이터 분석과 인공지능 분야에 관심이 많습니다. 앞으로 인공지능 기술을 연구하며 전 세계와 나라에 기여하고 싶습니다. 
   아직 많이 부족한 학생이지만 난관에 부딪힐때마다 포기하지 않고 끈질기게 도전하며, 그 과정에서 많은 것을 배우는 학생이라고 스스로 생각합니다.
   만약 채용시켜주신다면 열심히 하여 회사에 이바지하겠습니다.
+  제가 자신있는 언어와 프레임워크는 다음과 같습니다.
+  
   Language:
     - 상: C, Java, Python
     - 중: HTML/CSS, Javascript, SQL
     - 하:
+
   Framwork:
     - 상: Pytorch, Keras
     - 중: Django, React, Redux, Tensorflow

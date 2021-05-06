@@ -58,7 +58,7 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left #top-middle
         title: Visual localization
         link: https://github.com/ByungHeeCha/visual_localization
         # link_text: Project Website
@@ -77,7 +77,7 @@ content:
           Visual localization은 크게 2가지 단계로 나누어져 있습니다. 
           첫번째 단계는 이미지의 Global descriptor를 추출하여 쿼리 이미지와 비슷한 DB 이미지를 고르는 단계로, NetVLAD나 APGeM등의 알려져 있는 모델을 이용하였습니다.
           두번째 단계는 두 이미지의 feature matching을 통하여 쿼리 이미지가 찍힌 위치를 예측하는 단계로, 기존 컴퓨터비전 방법인 RootSIFT나 딥러닝을 사용한 방법인 Superglue를 사용하였습니다.
-      - layout: top-middle
+      - layout: left # top-middle
         title: Style2Vec
         link: https://github.com/ByungHeeCha/Style2vec
         # link_text: Project Website
@@ -94,7 +94,7 @@ content:
           학부생 연구기회 프로그램에서 패션 사진으로 부터 스타일 관련 특징을 추출하는 Style2Vec에 대한 연구를 진행하였습니다. 
           Word2Vec의 모델을 참고하여 같이 착용한 의상들은 비슷한 특성이 추출되도록 모델을 구성하였습니다. 
           그 결과 색감이나 옷의 종류가 비슷한 패션 사진이 서로 가깝게 임베딩됨을 확인할 수 있었습니다.
-      - layout: top-middle
+      - layout: left # top-middle
         title: Live Profiler for NNstreamer
         link: https://github.com/cts-2019f-nnstreamer/gst-shark
         # link_text: Project Website
@@ -118,7 +118,7 @@ content:
             - GstCheck를 이용한 C 기반 unit test
             - visualization 부분 기능 추가, 에러 제거 및 코드 개선
           
-      - layout: top-middle
+      - layout: left # top-middle
         title: Foodbook
         link: https://github.com/swsnu/swpp2019-team10
         # link_text: Project Website
@@ -155,7 +155,7 @@ content:
             - Azure cloud 서비스로 배포
             
           
-      - layout: top-middle
+      - layout: left # top-middle
         title: ML을 이용한 cardinality estimation
 #         link: https://github.com/cts-2019f-nnstreamer/gst-shark
         # link_text: Project Website

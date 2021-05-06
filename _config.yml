@@ -50,7 +50,7 @@ linkedin_username: 병희-차-6384a81a4
 # about_title: About Me
 about_profile_image: images/IMG_1737.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 컴퓨터공학부 4학년을 다니고 있는 차병희라고 합니다. 
+  안녕하세요. 서울대학교 컴퓨터공학부 4학년에 재학중인 차병희라고 합니다. 
   저는 데이터 분석과 인공지능 분야에 관심이 많습니다. 앞으로 인공지능 기술을 연구하며 전 세계와 우리나라에 기여하고 싶습니다. 
   아직 많이 부족한 학생이지만 난관에 부딪힐때마다 포기하지 않고 끈질기게 도전하며, 그 과정에서 많은 것을 배우는 성격이라고 스스로 생각합니다.
   만약 기회가 된다면 열심히 하여 회사에 이바지하겠습니다.
@@ -151,7 +151,7 @@ content:
           React, Django등의 프론트엔드, 백엔드 프레임워크를 능숙하게 써야할 뿐만 아니라 웹디자인, 서버 데이터베이스 구성, ML 기능 추가등 여러 가지 복잡한 일들도 수행해야하는 쉽지 않은 프로젝트였습니다. 
           어려운 과제였지만 팀원들과 함께 한다면 충분히 할 수 있다고 믿었습니다. 학기 중에 빡빡한 스케줄에도 불구하고 팀원과 제가 시간을 쪼개가며 만나서 얘기를 하며 정보를 공유하고 프로젝트를 진행하였습니다. 
           또한 해야 하는 일도 적절하게 분배하며 효율적으로 프로젝트가 진행되도록 노력하였습니다. 
-          하지만 팀원이 지도기능을 추가하는 것 관련해서 어려움을 겪을 때에는 내 일이 아니라며 무시하지 않고 같이 해결해주었습니다. 
+          팀원이 지도기능을 추가하는 것 관련해서 어려움을 겪을 때에는 내 일이 아니라며 무시하지 않고 같이 해결해주었습니다. 
           처음엔 프론트엔드와 백엔드간의 의사소통이 부족해서 코드를 다시 고쳐야 되는 일도 있었지만 그 이후로 의사소통을 늘리며 이런 일이 더 발생하지 않도록 하였습니다. 
           팀원이 분배된 일에 대해 어려움을 겪을 때 도와주고 해결해주었습니다. 그 결과 의미 있는 웹서비스를 만들 수 있게 되었습니다. 지금도 팀원들과 좋은 관계를 유지하고 있습니다.
           
@@ -183,8 +183,8 @@ content:
 #         quote: >
 #           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          ML을 이용하여 SQL의 결과의 레코드 수를 예측하는 cardinality estimation에 대한 연구를 진행하였습니다. 
-          쿼리 최적화에 매우 중요한 부분을 차지하는 cardinality를 ML을 이용하여 좀 더 정교하게 예측하는 과제였습니다. 
+          ML을 이용하여 SQL select문 결과의 레코드 수를 예측하는 cardinality estimation에 대한 연구를 진행하였습니다. 
+          쿼리 최적화에 중요한 부분을 차지하는 cardinality를 ML을 이용하여 좀 더 정교하게 예측하는 과제였습니다. 
           여러가지 논문을 살펴보며 MLP, Naru등의 여러가지 Neural Network를 실험해보았습니다. 
           또한 논문에 나와있는 모델을 개선하여 기존보다 속도를 개선 하였습니다.
           그 결과 쿼리 최적화에 기본적으로 사용하는 cardinality estimation보다 좀 더 정확한 예측을 할 수 있었습니다.
@@ -200,13 +200,13 @@ content:
 #         quote: >
 #           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-          더 많은 경험을 쌓고 실력을 증진시키기 위해 SAP labs Korea에서 인턴으로 일해 보았습니다. 
-          그 회사에서 ML을 이용한 cardinality estimation에 대한 연구를 진행하였습니다. 
-          쿼리 최적화에 매우 중요한 부분을 차지하는 cardinality를 ML을 이용하여 좀 더 정교하게 예측하는 과제였습니다. 
-          아직 딥러닝에 대한 경험이 많지 않아서 시행착오도 많이 했지만
-          회사 멘토분들께서 저를 많이 도와주셨고 저도 논문을 읽고 여러 가지 실험을 해보며 멘토분들께서 만족하실만한 결과를 내놓게 되었습니다. 
-          그 과정에서 딥러닝에 대한 경험과 실력을 조금 증진 시킬 수 있게 되었습니다. 
-          또한 데이터베이스와 SQL에 대해 이해하게 되었고 방대한 데이터 내에서 효율적인 SQL문장을 쓰는것과 쿼리 최적화의 중요성을 알게 되었습니다.
+          더 많은 경험을 쌓고 실력을 증진시키기 위해 SAP labs Korea에서 인턴으로 일했습니다. 
+          그 회사에서 ML 기반 cardinality estimation에 대한 연구를 진행하였습니다. 
+          쿼리 최적화에 중요한 부분을 차지하는 DB cardinality를 ML을 이용하여 좀 더 정교하게 예측하는 과제였습니다. 
+          당시 딥러닝에 대한 경험이 많지 않아 시행착오도 많이 했지만
+          회사 멘토께서 저를 많이 도와주셨고 저도 논문을 읽고 여러 가지 실험을 해보며 회사에서 만족할만한 결과를 내놓게 되었습니다. 
+          그 과정에서 딥러닝에 대한 경험과 실력을 증진 시킬 수 있게 되었습니다. 
+          또한 데이터베이스와 SQL에 대해 이해가 깊어졌고 방대한 데이터 내에서 효율적인 SQL문장을 쓰는것과 쿼리 최적화의 중요성을 알게 되었습니다.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)

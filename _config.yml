@@ -108,7 +108,8 @@ content:
         description: | # this will include new lines to allow paragraphs
           ‘창의적통합설계’라는 과목에서 팀원들과 삼성에서 개발하는 nnstreamer의 live profiler를 개발하는 프로젝트를 진행하였습니다. 
           Network pipeline 각 component의 CPU usage, Processing time, buffer rate를 추적할 수 있고 그것을 그래프나 차트로 보기 쉽게 구현하였습니다. 
-          그 결과 회사 담당자분과 교수님께서 모두 만족하실만한 결과를 낼 수 있었습니다. 덕분에 저희 팀이 A+ 학점을 받을 수 있었습니다.
+          그 결과 회사 담당자분과 교수님께서 모두 만족하실만한 결과를 낼 수 있었습니다.
+          
       - layout: top-middle
         title: Foodbook
         link: https://github.com/swsnu/swpp2019-team10
@@ -129,9 +130,10 @@ content:
           또한 해야 하는 일도 적절하게 분배하며 효율적으로 프로젝트가 진행되도록 노력하였습니다. 
           하지만 팀원이 지도기능을 추가하는 것 관련해서 어려움을 겪을 때에는 내 일이 아니라며 무시하지 않고 같이 해결해주었습니다. 
           처음엔 프론트엔드와 백엔드간의 의사소통이 부족해서 코드를 다시 고쳐야 되는 일도 있었지만 그 이후로 의사소통을 늘리며 이런 일이 더 발생하지 않도록 하였습니다. 
-          팀원이 분배된 일에 대해 어려움을 겪을 때 도와주고 해결해주었습니다. 그 결과 의미 있는 웹서비스를 만들 수 있게 되었습니다. 지금도 팀원들과 좋은 관계를 유지하고 있습니다. &nbsp
-          작업리스트:|
-            * 
+          팀원이 분배된 일에 대해 어려움을 겪을 때 도와주고 해결해주었습니다. 그 결과 의미 있는 웹서비스를 만들 수 있게 되었습니다. 지금도 팀원들과 좋은 관계를 유지하고 있습니다.
+          
+          작업리스트:
+            - jjjjjjj
           
       - layout: top-middle
         title: ML을 이용한 cardinality estimation
@@ -147,13 +149,10 @@ content:
 #         quote: >
 #           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          더 많은 경험을 쌓고 실력을 증진시키기 위해 SAP labs Korea에서 인턴으로 일해 보았습니다. 
-          그 회사에서 ML을 이용한 cardinality estimation에 대한 연구를 진행하였습니다. 
+          ML을 이용하여 SQL의 결과의 레코드 수를 예측하는 cardinality estimation에 대한 연구를 진행하였습니다. 
           쿼리 최적화에 매우 중요한 부분을 차지하는 cardinality를 ML을 이용하여 좀 더 정교하게 예측하는 과제였습니다. 
-          회사 멘토분들께서 저를 많이 도와주셨고 저도 논문을 읽고 여러 가지 실험을 해보며 멘토분들께서 만족하실만한 결과를 내놓게 되었습니다. 
-          그 과정에서 딥러닝에 대한 경험과 실력을 조금 증진 시킬 수 있게 되었습니다. 
-          또한 데이터베이스와 SQL에 대해 이해하게 되었고 방대한 데이터 내에서 효율적인 SQL문장을 쓰는것과 쿼리 최적화의 중요성을 알게 되었습니다.
-
+          여러가지 논문을 살펴보며 MLP, Naru등의 여러가지 Neural Network를 실험해보았습니다. 
+          그 결과 쿼리 최적화에 기본적으로 사용하는 cardinality estimation보다 좀 더 정확한 예측을 할 수 있었습니다.
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -166,10 +165,12 @@ content:
 #         quote: >
 #           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            ML을 이용한 cardinality estimation에 대한 연구를 진행하였습니다. 
-            쿼리 최적화에 매우 중요한 부분을 차지하는 cardinality를 ML을 이용하여 좀 더 정교하게 예측하는 과제였습니다. 
-            회사 멘토분들께서 저를 많이 도와주셨고 저도 논문을 읽고 여러 가지 실험을 해보며 멘토분들께서 만족하실만한 결과를 내놓게 되었습니다. 
-            그 과정에서 딥러닝에 대한 경험과 실력을 조금 증진 시킬 수 있게 되었습니다.
+          더 많은 경험을 쌓고 실력을 증진시키기 위해 SAP labs Korea에서 인턴으로 일해 보았습니다. 
+          그 회사에서 ML을 이용한 cardinality estimation에 대한 연구를 진행하였습니다. 
+          쿼리 최적화에 매우 중요한 부분을 차지하는 cardinality를 ML을 이용하여 좀 더 정교하게 예측하는 과제였습니다. 
+          회사 멘토분들께서 저를 많이 도와주셨고 저도 논문을 읽고 여러 가지 실험을 해보며 멘토분들께서 만족하실만한 결과를 내놓게 되었습니다. 
+          그 과정에서 딥러닝에 대한 경험과 실력을 조금 증진 시킬 수 있게 되었습니다. 
+          또한 데이터베이스와 SQL에 대해 이해하게 되었고 방대한 데이터 내에서 효율적인 SQL문장을 쓰는것과 쿼리 최적화의 중요성을 알게 되었습니다.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
